@@ -8,17 +8,33 @@ Este repositorio es el índice general de mi portafolio. Cada proyecto tendrá s
 
 ## Proyectos
 
-Los siete proyectos están **planificados**. Se incorporarán enlaces a sus repositorios y evidencias a medida que avance su desarrollo. Los alcances siguientes son propuestas iniciales, no funcionalidades implementadas.
+El Proyecto 01 ya cuenta con una **primera versión funcional publicada, en desarrollo**. Los proyectos 02 a 07 permanecen planificados; sus alcances son propuestas iniciales. Los repositorios y evidencias se incorporan conforme avanza cada proyecto.
 
-| Proyecto | Alcance propuesto | Estado |
+| Proyecto | Alcance | Estado |
 | --- | --- | --- |
-| 01 · ERP Full Stack | Gestión de procesos de negocio, con interfaz web, API y persistencia de datos. | Planificado |
+| [01 · Maestranza ERP — Full Stack](https://github.com/richardgrim/erp-fullstack) | Clientes, órdenes, roles, inventario y resumen operativo para un taller. | Primera versión funcional · En desarrollo |
 | 02 · Aplicación Full Stack | Aplicación web centrada en resolver una necesidad concreta, con frontend, backend y base de datos. | Planificado |
 | 03 · Arquitectura de Microservicios | Servicios independientes, comunicación entre componentes y documentación de la arquitectura. | Planificado |
 | 04 · Data Analytics / Business Intelligence | Preparación y análisis de datos, indicadores y visualización de resultados. | Planificado |
 | 05 · DevSecOps CI/CD | Automatización de integración, pruebas, controles de seguridad y entrega de una aplicación. | Planificado |
 | 06 · Infraestructura Cloud AWS con Terraform | Infraestructura como código, gestión de accesos y documentación de despliegue y eliminación de recursos. | Planificado |
 | 07 · Aplicación móvil | Aplicación móvil con un caso de uso definido y documentación de ejecución y pruebas. | Planificado |
+
+## Proyecto destacado: Maestranza ERP
+
+Aplicación para organizar la recepción y seguimiento de trabajos de una maestranza y controlar el consumo de materiales por orden. Proyecto de demostración con datos ficticios y ejecución local.
+
+**Tecnologías:** Angular 21, Java 21, Spring Boot, Spring Security, PostgreSQL 17, Flyway, Docker Compose y GitHub Actions.
+
+- Registro de clientes y órdenes; seguimiento desde pendiente hasta entregada, con historial de cambios.
+- Inicio de sesión y permisos diferenciados de administrador y operador.
+- Entradas de materiales y consumos asociados a órdenes en proceso, con control de stock y autoría de movimientos.
+- Resumen de órdenes por estado, búsqueda y filtros por fecha de creación.
+- 33 pruebas automatizadas (17 del servidor y 16 de interfaz); primera ejecución de CI aprobada con compilaciones e informes disponibles.
+
+[Repositorio](https://github.com/richardgrim/erp-fullstack) · [Arquitectura](https://github.com/richardgrim/erp-fullstack/blob/main/docs/architecture.md) · [Ejecución local](https://github.com/richardgrim/erp-fullstack/blob/main/docs/runbook.md) · [Evidencias](https://github.com/richardgrim/erp-fullstack/tree/main/evidence) · [CI aprobado](https://github.com/richardgrim/erp-fullstack/actions/runs/42743654992)
+
+**Estado y límites:** primera versión funcional en desarrollo; no es un sistema productivo ni una aplicación desplegada públicamente. No incluye facturación ni valoración económica del inventario. La licencia está pendiente de elección.
 
 ## Práctica técnica y formación
 
@@ -37,6 +53,8 @@ Repositorio académico y técnico utilizado para practicar integración y despli
 Este laboratorio se mantiene separado de los siete proyectos del portafolio.
 
 ## Tecnologías y áreas de desarrollo
+
+**Utilizadas en Maestranza ERP:** Angular, TypeScript, Java, Spring Boot, Spring Security, PostgreSQL, Flyway y GitHub Actions.
 
 **Utilizadas en los laboratorios:** Git, GitHub, GitHub Actions, Azure DevOps, Azure Pipelines, Docker, Java, Maven, PowerShell y Postman/Newman.
 

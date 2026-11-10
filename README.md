@@ -34,7 +34,7 @@ Aplicación para organizar la recepción y seguimiento de trabajos de una maestr
 
 [Repositorio](https://github.com/richardgrim/erp-fullstack) · [Arquitectura](https://github.com/richardgrim/erp-fullstack/blob/main/docs/architecture.md) · [Ejecución local](https://github.com/richardgrim/erp-fullstack/blob/main/docs/runbook.md) · [Evidencias](https://github.com/richardgrim/erp-fullstack/tree/main/evidence) · [CI aprobado](https://github.com/richardgrim/erp-fullstack/actions/runs/42743654992)
 
-**Estado y límites:** primera versión funcional en desarrollo; no es un sistema productivo ni una aplicación desplegada públicamente. No incluye facturación ni valoración económica del inventario. La licencia está pendiente de elección.
+**Estado y límites:** primera versión funcional en desarrollo; no es un sistema productivo ni una aplicación desplegada públicamente. No incluye facturación ni valoración económica del inventario. Código disponible bajo [licencia MIT](https://github.com/richardgrim/erp-fullstack/blob/main/LICENSE).
 
 ## Práctica técnica y formación
 

@@ -8,12 +8,12 @@ Este repositorio es el índice general de mi portafolio. Cada proyecto tendrá s
 
 ## Proyectos
 
-El Proyecto 01 ya cuenta con una **primera versión funcional publicada, en desarrollo**. Los proyectos 02 a 07 permanecen planificados; sus alcances son propuestas iniciales. Los repositorios y evidencias se incorporan conforme avanza cada proyecto.
+Los proyectos 01 y 02 cuentan con una **primera versión funcional, en desarrollo**. Los proyectos 03 a 07 permanecen planificados; sus alcances son propuestas iniciales. Los repositorios y evidencias se incorporan conforme avanza cada proyecto.
 
 | Proyecto | Alcance | Estado |
 | --- | --- | --- |
 | [01 · Maestranza ERP — Full Stack](https://github.com/richardgrim/erp-fullstack) | Clientes, órdenes, roles, inventario y resumen operativo para un taller. | Primera versión funcional · En desarrollo |
-| 02 · Aplicación Full Stack | Aplicación web centrada en resolver una necesidad concreta, con frontend, backend y base de datos. | Planificado |
+| [02 · Agenda Clara — Aplicación Full Stack](https://github.com/richardgrim/fullstack-app) | Reservas de servicios, disponibilidad, cancelaciones y configuración del responsable. | Primera versión funcional · En desarrollo |
 | 03 · Arquitectura de Microservicios | Servicios independientes, comunicación entre componentes y documentación de la arquitectura. | Planificado |
 | 04 · Data Analytics / Business Intelligence | Preparación y análisis de datos, indicadores y visualización de resultados. | Planificado |
 | 05 · DevSecOps CI/CD | Automatización de integración, pruebas, controles de seguridad y entrega de una aplicación. | Planificado |
@@ -36,6 +36,22 @@ Aplicación para organizar la recepción y seguimiento de trabajos de una maestr
 
 **Estado y límites:** primera versión funcional en desarrollo; no es un sistema productivo ni una aplicación desplegada públicamente. No incluye facturación ni valoración económica del inventario. Código disponible bajo [licencia MIT](https://github.com/richardgrim/erp-fullstack/blob/main/LICENSE).
 
+## Proyecto 02: Agenda Clara
+
+Aplicación de reservas para un negocio de servicios y una agenda. Demostración con datos ficticios y ejecución local.
+
+**Tecnologías:** Angular 21, NestJS 11, TypeScript, PostgreSQL 17 y Docker Compose.
+
+- Registro y sesiones; separación de permisos entre cliente y responsable.
+- Consulta de disponibilidad, confirmación de reservas y cancelación antes del inicio.
+- Protección de intervalos contra citas superpuestas, incluso ante solicitudes simultáneas.
+- Agenda por fecha/estado y gestión de servicios, franjas semanales y bloqueos.
+- 57 pruebas automatizadas aprobadas localmente (30 del servidor y 27 de interfaz). [Primera ejecución de GitHub Actions aprobada](https://github.com/richardgrim/fullstack-app/actions/runs/43143041184), con pruebas, migraciones y compilación.
+
+[Repositorio](https://github.com/richardgrim/fullstack-app) · [Arquitectura](https://github.com/richardgrim/fullstack-app/blob/main/docs/architecture.md) · [Ejecución local](https://github.com/richardgrim/fullstack-app/blob/main/docs/runbook.md) · [Evidencias](https://github.com/richardgrim/fullstack-app/tree/main/evidence)
+
+**Estado y límites:** primera versión funcional en desarrollo; no es un servicio desplegado públicamente. Sin pagos, correos automáticos ni múltiples profesionales. Código disponible bajo [licencia MIT](https://github.com/richardgrim/fullstack-app/blob/main/LICENSE).
+
 ## Práctica técnica y formación
 
 ### Laboratorio CI/CD
@@ -55,6 +71,8 @@ Este laboratorio se mantiene separado de los siete proyectos del portafolio.
 ## Tecnologías y áreas de desarrollo
 
 **Utilizadas en Maestranza ERP:** Angular, TypeScript, Java, Spring Boot, Spring Security, PostgreSQL, Flyway y GitHub Actions.
+
+**Utilizadas en Agenda Clara:** Angular, TypeScript, NestJS, PostgreSQL y Docker Compose.
 
 **Utilizadas en los laboratorios:** Git, GitHub, GitHub Actions, Azure DevOps, Azure Pipelines, Docker, Java, Maven, PowerShell y Postman/Newman.
 
